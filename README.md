@@ -1,5 +1,7 @@
-# Topic
+![image](https://user-images.githubusercontent.com/89020936/158394839-0a6a0804-f1c1-44d1-b080-32c97e756426.png)
 
+
+# Topic
 - 신문사 내부적인 관리와 다른 학우들의 관심 및 소통을 위한 웹페이지
 
 
