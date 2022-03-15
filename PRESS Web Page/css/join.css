@@ -1,0 +1,21 @@
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "맑은고딕";   font-size: 14px; }
+img { border: 0;}
+ul { list-style-type: none; }
+
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: rgb(25, 64, 86); }
+a:link { text-decoration:none; color: rgb(25, 64, 86); }
+a:hover { text-decoration:none; color: rgb(25, 64, 86); }
+a:visited { text-decoration:none; color: rgb(25, 64, 86); }
+a:active { text-decoration:none; color: rgb(25, 64, 86); }
+
+#join_top { position: relative; width: 100%; height:150px; margin: 0 auto; text-align: right; margin-top: 50px; }
+#join_top img { padding-right: 50px;}
+
+#join_box { position: relative; width: 100%; margin: 0 auto; text-align: center; }
+#join_box h3 { font-size: 60px; padding-bottom: 15px;}
+#join_box ul { font-size: 20px; margin-bottom: 30px;}
+#join_box li { display: inline; }
+#join_box p { padding-bottom: 20px; }

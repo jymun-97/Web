@@ -1,0 +1,153 @@
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "맑은고딕";   font-size: 14px; }
+img { border: 0;}
+ul { list-style-type: none; }
+
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: rgb(25, 64, 86); }
+a:link { text-decoration:none; color: rgb(25, 64, 86); }
+a:hover { text-decoration:none; color: rgb(25, 64, 86); }
+a:visited { text-decoration:none; color: rgb(25, 64, 86); }
+a:active { text-decoration:none; color: rgb(25, 64, 86); }
+
+#activity_top { position: relative; width: 100%; height:300px; margin: 0 auto; background-color: rgb(247, 247, 247); margin-top: 7px;}
+#activity_top h1 { text-align: center; font-size: 50px; padding-top: 50px; color: rgb(25, 64, 86);}
+#activity_top p { text-align: center; font-size: 24px; padding-top: 30px; }
+
+#activity_notice {background-color: rgb(25, 64, 86); position: relative; width: 100%; height:150px; margin: 0 auto; margin-top: 7px; margin-bottom: 5px;text-align: center;}
+#activity_notice h1 { padding-bottom: 15px; padding-top: 25px; color: white;}
+
+#activity { position: relative; width: 100%; height:700px; margin: 0 auto; text-align: center; background: rgb(22, 22, 22); }
+#activity_box { padding-left: 20px; display: inline-block; width: 427px; height: 650px; margin-top: 30px; }
+#activity_inf { height: 150px; border: 1px solid white; }
+#activity_inf h3{ padding-top: 20px; font-size: 20px; }
+#activity_inf p{ padding-top: 10px; font-size: 15px; }
+#activity_inf button{width: 130px; height: 35px; cursor: pointer; margin-top: 15px; color: white; 
+	background-color: rgb(25, 64, 86); border: 0 solid black; font-size: 15px; }
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+.snip1273 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  width: 427px;
+  height: 640px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  font-size: 16px;
+}
+.snip1273 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.snip1273 img {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.snip1273 figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 20px 30px;
+}
+.snip1273 figcaption:before,
+.snip1273 figcaption:after {
+  width: 4px;
+  height: 0;
+}
+.snip1273 figcaption:before {
+  right: 0;
+  top: 0;
+}
+.snip1273 figcaption:after {
+  left: 0;
+  bottom: 0;
+}
+.snip1273 h3,
+.snip1273 p {
+  line-height: 1.5em;
+}
+.snip1273 h3 {
+  margin: 0 0 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.snip1273 p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.snip1273 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.snip1273:before,
+.snip1273:after,
+.snip1273 figcaption:before,
+.snip1273 figcaption:after {
+  position: absolute;
+  content: '';
+  background-color: white;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0.8;
+}
+.snip1273:before,
+.snip1273:after {
+  height: 4px;
+  width: 0%;
+}
+.snip1273:before {
+  top: 0;
+  left: 0;
+}
+.snip1273:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1273:hover img,
+.snip1273.hover img {
+  opacity: 0.4;
+}
+.snip1273:hover figcaption,
+.snip1273.hover figcaption {
+  opacity: 1;
+}
+.snip1273:hover figcaption:before,
+.snip1273.hover figcaption:before,
+.snip1273:hover figcaption:after,
+.snip1273.hover figcaption:after {
+  height: 100%;
+}
+.snip1273:hover:before,
+.snip1273.hover:before,
+.snip1273:hover:after,
+.snip1273.hover:after {
+  width: 100%;
+}
+.snip1273:hover:before,
+.snip1273.hover:before,
+.snip1273:hover:after,
+.snip1273.hover:after,
+.snip1273:hover figcaption:before,
+.snip1273.hover figcaption:before,
+.snip1273:hover figcaption:after,
+.snip1273.hover figcaption:after {
+  opacity: 0.1;
+}

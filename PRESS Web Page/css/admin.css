@@ -1,0 +1,96 @@
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-family: "맑은고딕";   font-size: 14px; }
+img { border: 0;}
+ul { list-style-type: none; }
+
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: black; }
+a:link { text-decoration:none; color: black; }
+a:hover { text-decoration:none; color: black }
+a:visited { text-decoration:none; color: black }
+a:active { text-decoration:none; color: black }
+
+#admin_box { display: flex;position: relative; margin: 0 auto; width: 1000px; height: 850px; margin-top: 50px; }
+
+#box_left { width: 270px; height: 100%;}
+
+#profil { border: 1px solid rgb(204,204,204); height: 280px; text-align: center;}
+#profil_icon { width: 90px; height: 90px; margin: 0 auto; background-color: rgb(0, 137, 123); border-radius: 45px; margin-top: 30px; margin-bottom: 10px;}
+#profil_icon h3 { font-size: 25px; color: white; padding-top: 28px; }
+#profil p { margin-top: 0px; }
+#profil button { border: 1px solid rgb(25,64,86); width: 160px; height: 40px; color: rgb(25,64,86); margin-top: 20px; background-color: white; font-size: 16px; cursor: pointer;}
+#member_inf { border: 0px solid black; width: 200px; height: 45px; margin: 0 auto; display: flex; margin-top: 10px;}
+#member_inf li { padding-top: 0px; vertical-align: center; }
+#member_inf p { padding-top: 3px; }
+#nMember { width: 100px; border-right: 1px solid rgb(204,204,204); }
+#nSubscribe { width: 100px; }
+#nSubscribe img { width: 30px; height: 15px;}
+
+#menu { border: 1px solid rgb(204,204,204); margin-top: 30px; height: 200px; text-align: left; }
+#menu li{ padding-left: 30px; font-size: 20px; padding-top: 10px;}
+
+#box_right { width: 800px; height: 100%;}
+#box_right button { margin-top: 30px; width: 130px; height: 40px; color: white; background-color: rgb(24,64,86); cursor: pointer; float: right;}
+
+#inf { margin-left: 40px; }
+#inf h2 { font-size: 23px; }
+#row_member { margin-left: 27px;  margin-top: 20px; border-bottom: solid 1px #dddddd; padding-bottom: 10px;}
+#row_member span { font-size: 15px; text-align: center; display: inline-block; }
+#row_member img { width: 15px; height: 15px; }
+#row_member button { border: 1px solid rgb(25,64,86); width: 100px; height: 30px; color: white; background-color: rgb(25,64,86); font-size: 12px; cursor: pointer;}
+#row_member .col_position { width: 60px; }
+#row_member .col_name { width: 60px; }
+#row_member .col_studentID { width: 100px; }
+#row_member .col_email { width: 250px; }
+#row_member .col_major { width: 150px; }
+#row_member .col_regist_day { width: 200px; }
+#row_member .col_isnew { margin-left: 50px; width: 70px; }
+#row_member .col_delete { float: right; width: 20px; }
+#row_member .col_check { margin-left: 20px; }
+#row_member .col_date { margin-left: 50px; width: 80px; }
+#row_member .col_title { width: 150px; }
+#row_member .col_content {margin-left: 50px; width: 300px; }
+#row_member .col_file { width: 200px; }
+#row_member .col_fix { float: right; width: 20px; padding-right: 20px; }
+
+#event_add_box { border: 1px solid rgb(204,204,204); width: 900px; margin: 0 auto; margin-top: 50px; }
+#event_day { height: 70px; padding-left: 50px; display: flex;}
+#event_day p { margin-top: 23px; margin-right: 30px; font-size: 18px;}
+#event_day input { width: 150px; height: 30px; margin-top: 20px;}
+#event_title { height: 80px; }
+#event_title input { height: 70px; margin-top: 5px; margin-left: 50px; width: 800px; font-size: 40px; color: gray; border: 0px solid black;}
+#event_content { height: 300px; }
+#event_content textarea { height: 280px; margin-top: 20px; margin-left: 50px; width: 800px; font-size: 20px; color: gray; border: 0px solid black; }
+#event_img { height: 80px; }
+#event_img input { cursor: pointer; margin-left: 50px; margin-top: 20px; }
+
+#board_list_me { margin-left: 27px; width: 700px; margin-top: 20px; border: solid 1px #dddddd; }
+#board_list_me li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#board_list_me span { display: inline-block; text-align: center;}
+#board_list_me img { width: 15px; height: 15px; }
+#board_list_me .subject { text-align: left; padding-left: 50px; width: 350px; }
+#board_list_me .ncomment { width: 60px;}
+#board_list_me .likes { width: 60px; }
+#board_list_me .hit { width: 60px; }
+#board_list_me .name { width: 60px; }
+#comment_list_me { margin-left: 27px; width: 700px; border-bottom: solid 1px #dddddd;}
+#comment_list_box_me { height: 80px; border-bottom: solid 1px #dddddd;}
+#comment_list_name_me { height: 40px; font-size: 13px; }
+#comment_list_name_me p { padding-left: 30px; padding-top: 10px; }
+#comment_list_name_me li { padding-left: 30px; padding-top: 10px; display: inline-block;}
+#comment_list_name_me img { width:12px; height: 12px; }
+#comment_list_content { height: 200px; margin-left: 50px;}
+#comment_list_content p { width : 700px; padding-left: 50px; padding-top: 10px; font-size: 13px; }
+
+#event_button { position: relative; width: 900px; margin: 0 auto; margin-top: 20px; }
+#event_button_box { text-align: right; }
+#event_button_box li { display: inline-block; }
+#event_button_box button { width: 120px; height: 40px; font-size: 15px; cursor: pointer;}
+#event_button_insert { margin-right: 20px; color: white; background-color: rgb(25, 64, 86); border:0 solid black;}
+#event_button_cancel { color: rgb(25, 64, 86); background-color: white; border:1px solid rgb(25, 64, 86);}
+
+#activity_img { height: 50px; display: flex;}
+#activity_img p { padding-left: 50px; font-size: 15px; color: gray; }
+#activity_img input { cursor: pointer; margin-left: 20px; }
